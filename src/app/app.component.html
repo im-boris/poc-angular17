@@ -1,0 +1,16 @@
+<div class="container-field-card">
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
+    <button 
+        pButton 
+        pRipple 
+        label="Submits" 
+        icon="pi pi-check"
+        severity="info"
+        [outlined]="true"
+        [rounded]="true"
+        style="margin-top: 10px;"
+        class="p-button font-bold p-button-success">
+    </button>
+  </form>
+</div>

@@ -1,0 +1,14 @@
+.container-field-card {
+    margin: 35px;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+::ng-deep .p-field{
+    display: flex;
+    flex-direction: column;
+}
+
+::ng-deep .p-error {
+    margin-top: 4px;
+}
